@@ -1,0 +1,41 @@
+{
+    "amount": 46600,
+    "countGoods": 2,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 134,
+            "product_name": "Клавиатура",
+            "price": 1600,
+            "img_product": "https://picsum.photos/seed/5/200"
+        },
+        {
+            "quantity": 1,
+            "id_product": 1243,
+            "product_name": "Телевизор",
+            "price": 45600,
+            "img_product": "https://picsum.photos/seed/10/200"
+        },
+        {
+            "quantity": 1,
+            "id_product": 3256,
+            "product_name": "Проектор",
+            "price": 4000,
+            "img_product": "https://picsum.photos/seed/15/200"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2133,
+            "product_name": "Видеокамера",
+            "price": 45600,
+            "img_product": "https://picsum.photos/seed/14/200"
+        },
+        {
+            "quantity": 1,
+            "id_product": 4527,
+            "product_name": "Кольцевая лампа",
+            "price": 350,
+            "img_product": "https://picsum.photos/seed/9/200"
+        }
+    ]
+}

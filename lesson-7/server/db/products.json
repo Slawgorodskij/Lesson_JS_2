@@ -1,0 +1,92 @@
+[
+  {
+    "id_product": 124,
+    "product_name": "Keyboard",
+    "price": 1600,
+    "img_product": "https://picsum.photos/seed/1/200"
+  },
+  {
+    "id_product": 457,
+    "product_name": "Gamepad",
+    "price": 3000,
+    "img_product": "https://picsum.photos/seed/2/200"
+  },
+  {
+    "id_product": 123,
+    "product_name": "Ноутбук",
+    "price": 45600,
+    "img_product": "https://picsum.photos/seed/3/200"
+  },
+  {
+    "id_product": 456,
+    "product_name": "Мышка",
+    "price": 1000,
+    "img_product": "https://picsum.photos/seed/4/200"
+  },
+  {
+    "id_product": 134,
+    "product_name": "Клавиатура",
+    "price": 1600,
+    "img_product": "https://picsum.photos/seed/5/200"
+  },
+  {
+    "id_product": 574,
+    "product_name": "Кофемашина",
+    "price": 3000,
+    "img_product": "https://picsum.photos/seed/6/200"
+  },
+  {
+    "id_product": 213,
+    "product_name": "Фитнес браслет",
+    "price": 600,
+    "img_product": "https://picsum.photos/seed/7/200"
+  },
+  {
+    "id_product": 1024,
+    "product_name": "Коврик",
+    "price": 60,
+    "img_product": "https://picsum.photos/seed/8/200"
+  },
+  {
+    "id_product": 4527,
+    "product_name": "Кольцевая лампа",
+    "price": 350,
+    "img_product": "https://picsum.photos/seed/9/200"
+  },
+  {
+    "id_product": 1243,
+    "product_name": "Телевизор",
+    "price": 45600,
+    "img_product": "https://picsum.photos/seed/10/200"
+  },
+  {
+    "id_product": 4576,
+    "product_name": "MP3 колонка",
+    "price": 1000,
+    "img_product": "https://picsum.photos/seed/11/200"
+  },
+  {
+    "id_product": 1354,
+    "product_name": "Телефон",
+    "price": 1600,
+    "img_product": "https://picsum.photos/seed/12/200"
+  },
+  {
+    "id_product": 5754,
+    "product_name": "Фотоаппарат",
+    "price": 1400,
+    "img_product": "https://picsum.photos/seed/13/200"
+  },
+  {
+    "id_product": 2133,
+    "product_name": "Видеокамера",
+    "price": 45600,
+    "img_product": "https://picsum.photos/seed/14/200"
+  },
+  {
+    "id_product": 3256,
+    "product_name": "Проектор",
+    "price": 4000,
+    "img_product": "https://picsum.photos/seed/15/200"
+  }
+]

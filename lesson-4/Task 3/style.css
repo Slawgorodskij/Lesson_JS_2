@@ -1,0 +1,44 @@
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.header {
+  margin-bottom: 20px;
+  background-color: #7960d4f3;
+}
+.header__iner {
+  display: flex;
+  height: 70px;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn-cart {
+  padding: 10px 20px;
+}
+p {
+  margin-bottom: 10px;
+}
+input {
+  margin-bottom: 25px;
+  padding: 5px 10px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  border: none;
+  background: rebeccapurple;
+  color: white;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  border-radius: 5px;
+}
+.error-msg {
+  color: red;
+  margin: 10px 0;
+}
+.invalid {
+  border: 2px solid red;
+}

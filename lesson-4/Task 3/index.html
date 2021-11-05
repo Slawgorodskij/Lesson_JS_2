@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Форма обратной связи</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__iner container">
+        <div class="logo">E-shop</div>
+        <button class="btn-cart" type="button">Корзина</button>
+        <div class="cart-block invisible"></div>
+      </div>
+    </header>
+    <main class="container">
+      <form action="#" id="feedbackForm">
+        <div>
+          <label>
+            <p>Your name</p>
+            <input type="text" name="name" id="name" />
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>Your phone</p>
+            <input type="tel" name="phone" id="phone" />
+          </label>
+        </div>
+        <div>
+          <label>
+            <p>Your email</p>
+            <input type="email" name="email" id="email" />
+          </label>
+        </div>
+        <button id="val-btn">Submit</button>
+      </form>
+    </main>
+
+    <script src="valid.js"></script>
+  </body>
+</html>

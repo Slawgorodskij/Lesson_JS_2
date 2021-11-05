@@ -1,0 +1,27 @@
+{
+    "amount": 0,
+    "countGoods": 0,
+    "contents": [
+        {
+            "quantity": 1,
+            "id_product": 4527,
+            "product_name": "Кольцевая лампа",
+            "price": 153,
+            "imgPath": "images/4527.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 2133,
+            "product_name": "Видеокамера",
+            "price": 4500,
+            "imgPath": "images/2133.jpg"
+        },
+        {
+            "quantity": 1,
+            "id_product": 456,
+            "product_name": "Мышка",
+            "price": 100,
+            "imgPath": "images/456.jpg"
+        }
+    ]
+}

@@ -1,0 +1,21 @@
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+p {
+  margin-bottom: 50px;
+  line-height: 24px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-around;
+}
+button {
+  padding: 15px;
+}
+
+button:hover {
+  background-color: dimgray;
+}

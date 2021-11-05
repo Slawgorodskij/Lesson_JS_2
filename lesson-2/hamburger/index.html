@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Кушать подано</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <img class="header__logo" src="images/logo.png" alt="logo" />
+      </div>
+    </header>
+
+    <main class="container">
+      <form action="#">
+        <fieldset class="hamburger">
+          <legend>Выберите размер гамбургера</legend>
+
+          <input
+            type="radio"
+            id="hamburger"
+            name="hamburger_size"
+            class="input"
+          />
+          <label for="hamburger" class="hamburger__item hamburger__item_little">
+            <figure>
+              <div class="hamburger__photo">
+                <img
+                  class="hamburger__photo_images"
+                  src="images/hamburger.jpg"
+                  alt="hamburger"
+                />
+              </div>
+              <figcaption class="hamburger__description">
+                <h2 class="hamburger__title">Маленький гамбургер</h2>
+                <p class="hamburger__text">50 рублей, 20 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+
+          <input
+            type="radio"
+            id="bighamburger"
+            name="hamburger_size"
+            class="input"
+          />
+          <label for="bighamburger" class="hamburger__item hamburger__item_big">
+            <figure>
+              <div class="hamburger__photo">
+                <img
+                  class="hamburger__photo_images"
+                  src="images/bighamburger.jpg"
+                  alt="hamburger"
+                />
+              </div>
+              <figcaption class="hamburger__description">
+                <h2 class="hamburger__title">Большой гамбургер</h2>
+                <p class="hamburger__text">100 рублей, 40 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+        </fieldset>
+
+        <fieldset class="topping">
+          <legend>Выберите начинку</legend>
+
+          <input type="radio" id="cheese" name="topping" class="input" />
+          <label for="cheese" class="topping__item topping__item_cheese">
+            <figure>
+              <div class="topping__photo">
+                <img
+                  class="topping__photo_images"
+                  src="images/cheese.jpg"
+                  alt="cheese"
+                />
+              </div>
+              <figcaption class="topping__description">
+                <h2 class="topping__title">Сыр</h2>
+                <p class="topping__text">10 рублей, 20 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+
+          <input type="radio" id="salad" name="topping" class="input" />
+          <label for="salad" class="topping__item topping__item_salad">
+            <figure>
+              <div class="topping__photo">
+                <img
+                  class="topping__photo_images"
+                  src="images/salad.jpg"
+                  alt="salad"
+                />
+              </div>
+              <figcaption class="topping__description">
+                <h2 class="topping__title">Салат</h2>
+                <p class="topping__text">20 рублей, 5 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+
+          <input type="radio" id="potato" name="topping" class="input" />
+          <label for="potato" class="topping__item topping__item_potato">
+            <figure>
+              <div class="topping__photo">
+                <img
+                  class="topping__photo_images"
+                  src="images/potato.jpg"
+                  alt="potato"
+                />
+              </div>
+              <figcaption class="topping__description">
+                <h2 class="topping__title">Картофель</h2>
+                <p class="topping__text">15 рублей, 10 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+        </fieldset>
+
+        <fieldset class="condiment">
+          <legend>Выберите приправу</legend>
+
+          <input type="checkbox" id="spice" name="condiment" class="input" />
+          <label for="spice" class="condiment__item condiment__item_spice">
+            <figure>
+              <div class="condiment__photo">
+                <img
+                  class="condiment__photo_images"
+                  src="images/spice.jpg"
+                  alt="spice"
+                />
+              </div>
+              <figcaption class="condiment__description">
+                <h2 class="condiment__title">Специи</h2>
+                <p class="condiment__text">15 рублей, 0 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+
+          <input
+            type="checkbox"
+            id="mayonnaise"
+            name="condiment"
+            class="input"
+          />
+          <label
+            for="mayonnaise"
+            class="condiment__item condiment__item_mayonnaise"
+          >
+            <figure>
+              <div class="condiment__photo">
+                <img
+                  class="condiment__photo_images"
+                  src="images/mayonnaise.jpg"
+                  alt="mayonnaise"
+                />
+              </div>
+              <figcaption class="condiment__description">
+                <h2 class="condiment__title">Майонез</h2>
+                <p class="condiment__text">20 рублей, 5 калорий</p>
+              </figcaption>
+            </figure>
+          </label>
+        </fieldset>
+
+        <div class="button">Собрать гамбургер</div>
+        <div class="final">
+          <p>Вы выбрали:</p>
+        </div>
+      </form>
+    </main>
+
+    <footer class="footer">
+      <div class="footer__item container">
+        <img class="footer__logo" src="images/logo.png" alt="logo" />
+        <p class="footer-bottom__text">© 2021 Brand All Rights Reserved.</p>
+      </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script src="js/hamburger.js"></script>
+  </body>
+</html>
